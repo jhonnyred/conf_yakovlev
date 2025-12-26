@@ -1,0 +1,12 @@
+[1]
+Active Tab Index=0
+Tab Count=1
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00\xa4filenamesearch:?search=shipping&url=file%3A%2F%2F%2Fhome%2Fjhonn%2Fdata_nema&title=Pesquisar%20por%20resultados%20para%20%E2%80%9Cshipping%E2%80%9D%20em%20data_nema\x00\x00\x00\x00\x01\x00\x00\x00<file:///home/jhonn/data_nema/shipping_customer_accounts.json\x00\x00\x00\x01\x00\x00\x00<file:///home/jhonn/data_nema/shipping_customer_accounts.json\x00\x00\x00\x00\x00\x00\x02\x18\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+MenuBar=Disabled
+ObjectName=Dolphin#1

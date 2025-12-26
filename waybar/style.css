@@ -1,0 +1,117 @@
+/* Paleta Aetheria */
+@define-color background #0A0F09;
+@define-color foreground #95FF80;
+@define-color green-primary #95FF80;
+@define-color green-dark #487041;
+@define-color green-mid #6EBF5D;
+@define-color green-light #7BCF6B;
+@define-color accent #62A058;
+@define-color red #FF5555;
+@define-color blue #BDE0FE;
+@define-color black #050804;
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: @background;
+    color: @foreground;
+    border-bottom: 2px solid @green-primary;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    color: @green-dark;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+}
+
+#workspaces button.active {
+    color: @green-primary;
+    border-bottom: 2px solid @green-primary;
+}
+
+#workspaces button:hover {
+    color: @green-light;
+    background-color: @black;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#tray {
+    padding: 0 15px;
+    color: @foreground;
+}
+
+#clock {
+    color: @green-primary;
+    font-weight: bold;
+}
+
+#battery {
+    color: @green-mid;
+}
+
+#battery.charging {
+    color: @green-light;
+}
+
+#battery.warning:not(.charging) {
+    color: @red;
+}
+
+#cpu {
+    color: @green-dark;
+}
+
+#memory {
+    color: @accent;
+}
+
+#network {
+    color: @foreground;
+}
+
+#network.disconnected {
+    color: @red;
+}
+
+#pulseaudio {
+    color: @green-light;
+}
+
+#pulseaudio.muted {
+    color: @green-dark;
+}
+
+#tray {
+    color: @foreground;
+}
+
+#tray > .passive {
+    color: @green-dark;
+}
+
+#tray > .active {
+    color: @green-primary;
+}
+
+tooltip {
+    background: @black;
+    border: 1px solid @green-primary;
+    color: @foreground;
+}
+
+tooltip label {
+    color: @foreground;
+}
